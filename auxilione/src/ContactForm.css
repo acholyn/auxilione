@@ -1,0 +1,45 @@
+/* .contact-form {
+  display: flex;
+  flex-direction: column;
+} */
+
+form {
+  box-sizing: border-box;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  background-color: hsl(0, 0%, 100%);
+  border: 4px solid hsl(0, 0%, 90%);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+
+/* .email-message-row {
+  grid-column-start: span 2;
+} */
+
+.contact-form input {
+  padding: 0.5rem;
+  min-width: 25vw;
+  margin: 0.5rem;
+}
+
+.contact-form label {
+  margin-right: 0.3rem;
+}
+
+.message-wrapper,
+.email-wrapper {
+  grid-column-start: 1;
+  grid-column-end: span 2;
+}
+
+.message-wrapper input,
+.email-wrapper input {
+  width: 40vw;
+}
+.contact-form textarea {
+  height: 5rem;
+  width: 90%;
+  vertical-align: middle;
+}
