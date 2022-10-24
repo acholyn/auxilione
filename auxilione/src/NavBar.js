@@ -8,12 +8,17 @@ export default function NavBar() {
     "Blog",
     "Contact",
   ];
+  console.log(navHeadings);
+
   return (
     <div className="navbar">
       {navHeadings.map((heading) => (
-        <div key={heading} className="nav-item hover-underline">
-          {heading}
-        </div>
+        <a href={heading}>
+          {" "}
+          <div key={heading} className="nav-item hover-underline">
+            {heading}
+          </div>
+        </a>
       ))}
     </div>
   );
