@@ -14,19 +14,19 @@ export default function ContactForm() {
           </span>
           <form className="contact-form">
             <div>
-              <label for="Name">Name</label>
+              <label htmlFor="Name">Name</label>
               <input type="text" name="Name" />
             </div>
             <div>
-              <label for="Phone">Phone</label>
+              <label htmlFor="Phone">Phone</label>
               <input type="tel" name="Phone" />
             </div>
             <div className="email-wrapper">
-              <label for="Email">Email</label>
+              <label htmlFor="Email">Email</label>
               <input type="email" name="Email" />
             </div>
             <div className="message-wrapper">
-              <label for="Message">Message</label>
+              <label htmlFor="Message">Message</label>
               <textarea type="text" name="Message" id="Message" />
             </div>
           </form>
