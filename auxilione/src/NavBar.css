@@ -4,6 +4,8 @@
   background-color: #1190cb;
   padding: 1vh;
   justify-content: space-around;
+  position: fixed;
+  top: 0;
 }
 
 .nav-item {
@@ -30,10 +32,4 @@
 .nav-item:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
-}
-
-.nav-sticky {
-  position: fixed;
-  top: 0;
-  transition: all 0.3s ease-in;
 }
