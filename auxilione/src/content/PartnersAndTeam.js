@@ -22,10 +22,10 @@ We can also facilitate projects such as Combined Heat and Power (CHP) installati
                 title={
                   <>
                     <img src="logo.svg" alt="Tony Jordan" />
-                    <h5>
+                    <span className="senior-partner-name">
                       Tony Jordan <br></br>
                       <small>Senior Partner</small>
-                    </h5>
+                    </span>
                   </>
                 }
                 content={
@@ -58,10 +58,10 @@ We can also facilitate projects such as Combined Heat and Power (CHP) installati
                 title={
                   <>
                     <img src="logo.svg" alt="David Roberts" />
-                    <h5>
+                    <span className="senior-partner-name">
                       David Roberts <br></br>
                       <small>Senior Partner</small>
-                    </h5>
+                    </span>
                   </>
                 }
                 content={
