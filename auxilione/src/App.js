@@ -13,6 +13,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <NavBar />
+        <div className="title blue">
+          <h1>Auxilione</h1>
+          <h5>Together, we are one</h5>
+        </div>
+
         <img src={logo} className="App-logo" alt="logo" />
       </header>
       <main className="more-padding content">
